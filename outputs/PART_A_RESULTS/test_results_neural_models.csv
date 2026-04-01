@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score,Balanced Accuracy,ROC-AUC,PR-AUC
+SLP (with duration),0.9003,0.643,0.3317,0.4376,0.6536,0.9036,0.5343
+Baseline MLP (with duration),0.9024,0.6116,0.4527,0.5203,0.7073,0.9188,0.5737
+Improved MLP (with duration),0.8408,0.4133,0.8625,0.5588,0.8502,0.9215,0.5947

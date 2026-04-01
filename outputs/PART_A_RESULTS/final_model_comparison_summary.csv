@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score,Balanced Accuracy,ROC-AUC,PR-AUC,FP,FN,TP,TN,Ambiguous %,Accuracy on Ambiguous Samples,Accuracy on Confident Samples
+SLP (with duration),0.9003,0.643,0.3317,0.4376,0.6536,0.9036,0.5343,146,530,263,5843,2.9,0.4569,0.9136
+Baseline MLP (with duration),0.9024,0.6116,0.4527,0.5203,0.7073,0.9188,0.5737,228,434,359,5761,7.2,0.543,0.9303
+Improved MLP (with duration),0.8408,0.4133,0.8625,0.5588,0.8502,0.9215,0.5947,971,109,684,5018,5.78,0.5128,0.8609

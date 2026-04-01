@@ -1,0 +1,4 @@
+Model,TN,FP,FN,TP,False Positive Rate,False Negative Rate
+SLP (with duration),5843,146,530,263,0.0244,0.6683
+Baseline MLP (with duration),5761,228,434,359,0.0381,0.5473
+Improved MLP (with duration),5018,971,109,684,0.1621,0.1375
