@@ -1,0 +1,13 @@
+Suggestion,Decision,Reason
+Use a deeper feedforward MLP,Adopted,More advanced than earlier baselines while still suitable for tabular data.
+Add dropout regularisation,Adopted,Helps reduce overfitting and improve generalisation.
+Use batch normalization,Adopted,Can stabilise training in deeper feedforward networks.
+Use class weights,Adopted,Addresses class imbalance in the minority 'yes' class.
+Use early stopping,Adopted,Prevents unnecessary training once validation performance stops improving.
+Use ReduceLROnPlateau,Adopted,Allows learning rate reduction when validation loss plateaus.
+Use multiple evaluation metrics beyond accuracy,Adopted,Needed because accuracy alone is not enough for imbalanced classification.
+Use probability-based ambiguity analysis,Adopted,Supports coursework requirement to identify ambiguous predictions.
+Use CNN architecture,Rejected,Not suitable because the dataset is tabular rather than image-based.
+Use RNN or LSTM architecture,Rejected,Not suitable because the dataset is not sequential time-series data.
+Use a very deep ANN with many hidden layers,Rejected,Too complex for this coursework dataset and more likely to overfit.
+Change the preprocessing pipeline completely,Rejected,Would reduce fairness of comparison with Part A.

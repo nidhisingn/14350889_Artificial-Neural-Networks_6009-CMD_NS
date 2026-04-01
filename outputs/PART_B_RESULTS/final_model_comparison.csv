@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,Balanced Accuracy,ROC-AUC,PR-AUC,FP,FN,TP,TN,Ambiguous %,Accuracy on Ambiguous Samples,Accuracy on Confident Samples,Rank_Accuracy,Rank_Recall,Rank_F1,Rank_Balanced_Accuracy,Rank_ROC_AUC,Rank_PR_AUC,Rank_FP,Rank_FN,Average_Rank
+SLP (with duration),0.9003,0.643,0.3317,0.4376,0.6536,0.9036,0.5343,146,530,263,5843,2.9047,0.4569,0.9136,2.0,4.0,4.0,4.0,4.0,4.0,1.0,4.0,3.375
+Baseline MLP (with duration),0.9024,0.6116,0.4527,0.5203,0.7073,0.9188,0.5737,228,434,359,5761,7.1955,0.543,0.9303,1.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,2.375
+Improved MLP (with duration),0.8408,0.4133,0.8625,0.5588,0.8502,0.9215,0.5947,971,109,684,5018,5.78,0.5128,0.8609,3.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0,1.5
+GenAI-guided Advanced MLP (with duration),0.8259,0.3889,0.8562,0.5349,0.839,0.9137,0.5578,1067,114,679,4922,6.5615,0.4742,0.8506,4.0,2.0,2.0,2.0,3.0,3.0,4.0,2.0,2.75

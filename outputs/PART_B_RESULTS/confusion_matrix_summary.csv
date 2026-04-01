@@ -1,0 +1,5 @@
+Model,TN,FP,FN,TP
+SLP (with duration),5843,146,530,263
+Baseline MLP (with duration),5761,228,434,359
+Improved MLP (with duration),5018,971,109,684
+GenAI-guided Advanced MLP (with duration),4922,1067,114,679

@@ -1,0 +1,5 @@
+Model,Ambiguous %,Accuracy on Ambiguous Samples,Accuracy on Confident Samples
+SLP (with duration),2.9047,0.4569,0.9136
+Baseline MLP (with duration),7.1955,0.543,0.9303
+Improved MLP (with duration),5.78,0.5128,0.8609
+GenAI-guided Advanced MLP (with duration),6.5615,0.4742,0.8506
