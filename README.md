@@ -165,7 +165,7 @@ Although the GenAI-assisted model expanded the design space and introduced usefu
 
 A typical structure for this project is:
 
-###text
+'''text
 ├── Part_A/
 │   └── NS_14350889_ANN_PART-A.ipynb
 ├── Part_B/
